@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SE · Hongik University</title>
+  <meta name="description" content="SE Validation 및 홍익대학교 소프트웨어공학 연구실로 이동하는 랜딩 페이지" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%230b1020'/><text x='50' y='66' font-size='46' font-family='Arial' font-weight='700' text-anchor='middle' fill='white'>SE</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Noto+Sans+KR:wght@300;400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="split" id="split">
+    <!-- LEFT: SE Validation -->
+    <a class="panel panel--left" href="https://hoho715-park.github.io/SE-Validation/" data-side="left" aria-label="SE Validation 사이트로 이동">
+      <div class="panel__bg">
+        <div class="grid"></div>
+        <span class="blob blob--1"></span>
+        <span class="blob blob--2"></span>
+        <span class="blob blob--3"></span>
+        <div class="spotlight"></div>
+      </div>
+
+      <div class="panel__content">
+        <div class="icon icon--check" aria-hidden="true">
+          <svg viewBox="0 0 64 64" fill="none">
+            <circle class="ring" cx="32" cy="32" r="28" />
+            <path class="tick" d="M20 33 L28.5 41.5 L45 24" />
+          </svg>
+        </div>
+        <span class="eyebrow">Tool</span>
+        <h2 class="title">SE<br /><span>Validation</span></h2>
+        <p class="desc">소프트웨어 공학 산출물을<br />검증하고 확인하세요.</p>
+        <span class="cta">
+          바로가기
+          <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+        </span>
+      </div>
+    </a>
+
+    <!-- RIGHT: SE Lab -->
+    <a class="panel panel--right" href="https://selab.hongik.ac.kr" data-side="right" aria-label="홍익대학교 소프트웨어공학 연구실 사이트로 이동">
+      <div class="panel__bg">
+        <div class="orbits">
+          <span class="orbit orbit--1"><i></i></span>
+          <span class="orbit orbit--2"><i></i></span>
+          <span class="orbit orbit--3"><i></i></span>
+        </div>
+        <span class="blob blob--1"></span>
+        <span class="blob blob--2"></span>
+        <span class="blob blob--3"></span>
+        <div class="spotlight"></div>
+      </div>
+
+      <div class="panel__content">
+        <div class="icon icon--lab" aria-hidden="true">
+          <svg viewBox="0 0 64 64" fill="none">
+            <path class="cap" d="M6 26 L32 14 L58 26 L32 38 Z" />
+            <path class="cap-body" d="M16 31 V43 C16 43 22 50 32 50 C42 50 48 43 48 43 V31" />
+            <path class="tassel" d="M52 28 V42" />
+          </svg>
+        </div>
+        <span class="eyebrow">Laboratory</span>
+        <h2 class="title">SE<br /><span>Lab</span></h2>
+        <p class="desc">홍익대학교<br />소프트웨어공학 연구실</p>
+        <span class="cta">
+          바로가기
+          <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+        </span>
+      </div>
+    </a>
+
+    <!-- Center badge -->
+    <div class="divider" aria-hidden="true">
+      <span class="divider__line"></span>
+      <span class="divider__badge">SE</span>
+      <span class="divider__line"></span>
+    </div>
+  </main>
+
+  <!-- Transition curtain -->
+  <div class="curtain" id="curtain" aria-hidden="true"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
